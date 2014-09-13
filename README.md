@@ -6,6 +6,6 @@ Example for LxxLibrary
 Notes
 =====
 
-This project use Coding is alse GBK.
+This project use Coding is also GBK.
 
 
