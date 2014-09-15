@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.TextView;
 import mlick.lxxlibrary.fragment.BaseFragment;
 
-public class Fragment1 extends BaseFragment {
+public class BaseFragmentSample extends BaseFragment {
 
 	@ViewInject(R.id.textView1)
 	TextView textView;

@@ -7,7 +7,7 @@ import mlick.lxxlibrary.activity.BaseFragmentActivity;
 import android.view.Menu;
 import android.widget.FrameLayout;
 
-public class MainActivity extends BaseFragmentActivity {
+public class BaseFragmentActivitySample extends BaseFragmentActivity {
 
 	@ViewInject(R.id.main_fragment)
 	FrameLayout f;
@@ -21,7 +21,6 @@ public class MainActivity extends BaseFragmentActivity {
 
 	@Override
 	public int getLayoutResID() {
-		// TODO Auto-generated method stub
 		return R.layout.activity_main;
 	}
 
@@ -32,14 +31,16 @@ public class MainActivity extends BaseFragmentActivity {
 
 	@Override
 	public void initValue() {
-		// TODO Auto-generated method stub
-
+//		new TestToast(this, 5000).show();
+		ReflectToast rt = new ReflectToast(this);
+		rt.show();
+		
 	}
-
+	
 	@Override
 	public void initView() {
 		getSupportFragmentManager().beginTransaction()
-				.replace(R.id.main_fragment, new Fragment1()).commit();
+				.replace(R.id.main_fragment, new BaseFragmentSample()).commit();
 	}
-
+	
 }
