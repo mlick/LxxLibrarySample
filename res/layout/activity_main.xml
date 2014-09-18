@@ -3,10 +3,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:gravity="center"
+        android:text="BaseFragmentActivitySample is Success!"
+        android:textColor="#ffcc0000"
+        android:textSize="20sp" />
+
     <FrameLayout
         android:id="@+id/main_fragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView1" >
+
     </FrameLayout>
 
 </RelativeLayout>

@@ -6,10 +6,23 @@
     <TextView
         android:id="@+id/textView1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
         android:gravity="center"
-        android:text="Activity2"
+        android:text="BaseActivitySample is Failture!"
         android:textColor="#ffcc0000"
-        android:textSize="40sp" />
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:onClick="onclick"
+        android:text="BaseFragmentActivitySample" />
 
 </RelativeLayout>

@@ -31,10 +31,6 @@ public class BaseFragmentActivitySample extends BaseFragmentActivity {
 
 	@Override
 	public void initValue() {
-//		new TestToast(this, 5000).show();
-		ReflectToast rt = new ReflectToast(this);
-		rt.show();
-		
 	}
 	
 	@Override

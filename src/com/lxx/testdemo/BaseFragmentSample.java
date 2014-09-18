@@ -27,7 +27,7 @@ public class BaseFragmentSample extends BaseFragment {
 
 	@Override
 	public void initView() {
-		textView.setText("Fragment test success!");
+		textView.setText("BaseFragment test success!");
 	}
 
 	@Override
