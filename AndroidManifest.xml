@@ -4,12 +4,13 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -22,8 +23,10 @@
         </activity>
         <activity android:name="com.lxx.testdemo.UtilsSample" >
         </activity>
+        <activity android:name="com.lxx.testdemo.image.ImageViewActivity" >
+        </activity>
         <activity
-            android:name="com.lxx.testdemo.image.ImageViewActivity"
+            android:name="com.lxx.testdemo.FileUtilsActivity"
             android:label="@string/title_activity_image_view" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
