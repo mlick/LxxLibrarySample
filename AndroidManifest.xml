@@ -5,11 +5,11 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="11"
         android:targetSdkVersion="17" />
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
@@ -25,9 +25,17 @@
         </activity>
         <activity android:name="com.lxx.testdemo.image.ImageViewActivity" >
         </activity>
-        <activity
-            android:name="com.lxx.testdemo.FileUtilsActivity"
-            android:label="@string/title_activity_image_view" >
+        <activity android:name="com.lxx.testdemo.FileUtilsActivity" >
+        </activity>
+        <activity android:name="com.lxx.testdemo.ThreeCircleColor" >
+        </activity>
+        <activity android:name="com.lxx.testdemo.SwitchButtonActivity" >
+        </activity>
+        <activity android:name="com.lxx.testdemo.simpleswichbuttomdemo.StyleActivity" >
+        </activity>
+        <activity android:name="com.lxx.testdemo.simpleswichbuttomdemo.UseActivity" >
+        </activity>
+        <activity android:name="com.lxx.testdemo.simpleswichbuttomdemo.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

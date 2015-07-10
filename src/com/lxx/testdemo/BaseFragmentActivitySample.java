@@ -21,7 +21,7 @@ public class BaseFragmentActivitySample extends BaseFragmentActivity {
 
 	@Override
 	public int getLayoutResID() {
-		return R.layout.activity_main;
+		return R.layout.activity_main1;
 	}
 
 	@Override

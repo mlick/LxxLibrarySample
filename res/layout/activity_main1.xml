@@ -11,18 +11,15 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="21dp"
         android:gravity="center"
-        android:text="BaseActivitySample is Failture!"
+        android:text="BaseFragmentActivitySample is Success!"
         android:textColor="#ffcc0000"
         android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="23dp"
-        android:onClick="onclick"
-        android:text="BaseFragmentActivitySample" />
-	
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView1" >
+    </FrameLayout>
+
 </RelativeLayout>

@@ -1,26 +1,15 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical"
+    tools:context="com.kyleduo.switchbuttondemo.MainActivity" >
 
-     <TextView
-        android:id="@+id/textView1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="21dp"
-        android:gravity="center"
-        android:text="BaseFragmentActivitySample is Success!"
-        android:textColor="#ffcc0000"
-        android:textSize="20sp" />
-
-    <FrameLayout
-        android:id="@+id/main_fragment"
+    <ListView
+        android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/textView1" >
+        android:entries="@array/contents" />
 
-    </FrameLayout>
-
-</RelativeLayout>
+</LinearLayout>

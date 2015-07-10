@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp" >
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            android:id="@+id/switch_main_1"
+            style="@style/item"
+            android:background="@drawable/selector_preference_single"
+            android:checked="true"
+            android:text="接受推送"
+            app:frameDrawable="@drawable/switch_frame"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:withTextInterval="16dp" />
+
+        <!-- state drawable defined through xml -->
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            android:id="@+id/switch_main_2"
+            style="@style/item"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/selector_preference_header"
+            android:text="每日头条"
+            app:frameDrawable="@drawable/switch_frame"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:withTextInterval="16dp" />
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            android:id="@+id/switch_main_3"
+            style="@style/item"
+            android:background="@drawable/selector_preference_center"
+            android:text="每日热卖"
+            app:frameDrawable="@drawable/switch_frame"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:withTextInterval="16dp" />
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            android:id="@+id/switch_main_4"
+            style="@style/item"
+            android:background="@drawable/selector_preference_center"
+            android:text="优惠促销"
+            app:frameDrawable="@drawable/switch_frame"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:withTextInterval="16dp" />
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            android:id="@+id/switch_main_5"
+            style="@style/item"
+            android:background="@drawable/selector_preference_center"
+            android:text="偶像动态"
+            app:frameDrawable="@drawable/switch_frame"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:withTextInterval="16dp" />
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            android:id="@+id/switch_main_6"
+            style="@style/item"
+            android:background="@drawable/selector_preference_footer"
+            android:text="娱乐播报"
+            app:frameDrawable="@drawable/switch_frame"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:withTextInterval="16dp" />
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            android:id="@+id/switch_main_7"
+            style="@style/item"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/selector_preference_header"
+            android:text="天气预报"
+            app:frameDrawable="@drawable/switch_frame"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:withTextInterval="16dp" />
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            android:id="@+id/switch_main_8"
+            style="@style/item"
+            android:background="@drawable/selector_preference_footer"
+            android:text="系统消息"
+            app:frameDrawable="@drawable/switch_frame"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:withTextInterval="16dp" />
+
+        <!--
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            style="@style/item"
+            android:text="系统消息"
+            android:background="@drawable/selector_preference_header"
+            android:layout_marginTop="16dp"
+            app:withTextInterval="16dp"
+            app:frameDrawable="@drawable/switch_frame"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:sliderMaskDrawable="@drawable/switch_slider_mask"/>
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            style="@style/item"
+            android:text="系统消息"
+            android:background="@drawable/selector_preference_center"
+            app:withTextInterval="16dp"
+            app:frameDrawable="@drawable/switch_frame"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:sliderMaskDrawable="@drawable/switch_slider_mask"/>
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            style="@style/item"
+            android:text="系统消息"
+            android:background="@drawable/selector_preference_center"
+            app:withTextInterval="16dp"
+            app:frameDrawable="@drawable/switch_frame"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:sliderMaskDrawable="@drawable/switch_slider_mask"/>
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            style="@style/item"
+            android:text="系统消息"
+            android:background="@drawable/selector_preference_center"
+            app:withTextInterval="16dp"
+            app:frameDrawable="@drawable/switch_frame"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:sliderMaskDrawable="@drawable/switch_slider_mask"/>
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            style="@style/item"
+            android:text="系统消息"
+            android:background="@drawable/selector_preference_center"
+            app:withTextInterval="16dp"
+            app:frameDrawable="@drawable/switch_frame"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:sliderMaskDrawable="@drawable/switch_slider_mask"/>
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            style="@style/item"
+            android:text="系统消息"
+            android:background="@drawable/selector_preference_center"
+            app:withTextInterval="16dp"
+            app:frameDrawable="@drawable/switch_frame"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:sliderMaskDrawable="@drawable/switch_slider_mask"/>
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            style="@style/item"
+            android:text="系统消息"
+            android:background="@drawable/selector_preference_center"
+            app:withTextInterval="16dp"
+            app:frameDrawable="@drawable/switch_frame"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:sliderMaskDrawable="@drawable/switch_slider_mask"/>
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            style="@style/item"
+            android:text="系统消息"
+            android:background="@drawable/selector_preference_center"
+            app:withTextInterval="16dp"
+            app:frameDrawable="@drawable/switch_frame"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:sliderMaskDrawable="@drawable/switch_slider_mask"/>
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            style="@style/item"
+            android:text="系统消息"
+            android:background="@drawable/selector_preference_center"
+            app:withTextInterval="16dp"
+            app:frameDrawable="@drawable/switch_frame"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:sliderMaskDrawable="@drawable/switch_slider_mask"/>
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            style="@style/item"
+            android:text="系统消息"
+            android:background="@drawable/selector_preference_center"
+            app:withTextInterval="16dp"
+            app:frameDrawable="@drawable/switch_frame"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:sliderMaskDrawable="@drawable/switch_slider_mask"/>
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            style="@style/item"
+            android:text="系统消息"
+            android:background="@drawable/selector_preference_center"
+            app:withTextInterval="16dp"
+            app:frameDrawable="@drawable/switch_frame"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:sliderMaskDrawable="@drawable/switch_slider_mask"/>
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            style="@style/item"
+            android:text="系统消息"
+            android:background="@drawable/selector_preference_center"
+            app:withTextInterval="16dp"
+            app:frameDrawable="@drawable/switch_frame"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:sliderMaskDrawable="@drawable/switch_slider_mask"/>
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            style="@style/item"
+            android:text="系统消息"
+            android:background="@drawable/selector_preference_center"
+            app:withTextInterval="16dp"
+            app:frameDrawable="@drawable/switch_frame"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:sliderMaskDrawable="@drawable/switch_slider_mask"/>
+
+        <mlick.lxxlibrary.custom.view.SwitchButton
+            style="@style/item"
+            android:text="系统消息"
+            android:background="@drawable/selector_preference_footer"
+            app:withTextInterval="16dp"
+            app:frameDrawable="@drawable/switch_frame"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:sliderMaskDrawable="@drawable/switch_slider_mask"/>
+        -->
+    </LinearLayout>
+
+</ScrollView>
