@@ -4,6 +4,7 @@ import mlick.lxxlibrary.activity.BaseActivity;
 import net.tsz.afinal.FinalActivity;
 import net.tsz.afinal.annotation.view.ViewInject;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.view.View;
 import android.widget.TextView;
